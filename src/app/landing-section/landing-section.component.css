@@ -1,0 +1,91 @@
+
+.hero {
+    background-image: url("src/assets/images-trev/super.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    z-index: -2;
+   
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+.hero h1 {
+    font-size: 46px;
+    margin: -20px 0 20px;
+    margin-top: 5pc;
+}
+
+.hero p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 3pc;
+}
+
+
+
+.container-site {
+    position: absolute;
+    width: 633px;
+    height: 416px;
+    top: 156px;
+    max-width: 1200px;
+    margin-right: 23pc;
+    background-color: #f9e531ab;
+    border-radius: 3pc;
+}
+
+
+
+
+.bookers{
+    height: 20pc;
+    width: 23pc;
+    position: relative;
+    margin-left: 55pc;
+    margin-top: -30pc;
+}
+.bookers input{
+    display: block;
+    justify-content: space-between;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: #ff4e00;
+}
+.bookers button{
+    display: block;
+    background-color: yellow;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    box-shadow: #c0392b;
+}
+.bookers label{
+    color: white;
+}
+
+
