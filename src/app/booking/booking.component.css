@@ -2,6 +2,7 @@
   background-color: #f1dd30;
   color: black;
   margin-top: 10%;
+  font-weight: 900;
 }
 
 .card-body {
@@ -11,11 +12,14 @@
 .services-name {
   color: #ea4a2f;
   text-shadow: 2px 4px 4px #6c757d;
+  font-weight: 900 !important;
 }
 
 .service-title {
   color: #ea4a2f;
   text-shadow: 2px 4px 4px #adb5bd;
+  font-weight: 900;
+  margin-bottom: 3%;
 }
 
 input,
@@ -30,4 +34,12 @@ label {
 
 input {
   border: 0.1px solid #ea4a2f;
+}
+
+.long-distance-service {
+  margin-top: 50%;
+}
+
+.form-control {
+  width: 200%;
 }
