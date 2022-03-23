@@ -1,0 +1,28 @@
+input,
+label {
+  display: block !important;
+}
+
+input {
+  border: 0.1px solid #ea4a2f;
+}
+
+.form-control {
+  width: 220%;
+}
+
+.book-now-btn {
+  background-color: #f1dd30;
+  color: black;
+  margin-top: 10%;
+  font-weight: 900;
+}
+
+.reviews-section {
+    float: right;
+    margin-right: 23%;
+}
+
+.subscribe-section {
+    margin-left: 12%;
+}
