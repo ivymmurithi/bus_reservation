@@ -1,0 +1,45 @@
+.book-now-btn {
+  background-color: #f1dd30;
+  color: black;
+  margin-top: 10%;
+  font-weight: 900;
+}
+
+.card-body {
+  background-color: #c4c4c4;
+}
+
+.services-name {
+  color: #ea4a2f;
+  text-shadow: 2px 4px 4px #6c757d;
+  font-weight: 900 !important;
+}
+
+.service-title {
+  color: #ea4a2f;
+  text-shadow: 2px 4px 4px #adb5bd;
+  font-weight: 900;
+  margin-bottom: 2%;
+}
+
+input,
+label {
+  display: block !important;
+}
+
+.all-labels {
+  color: white;
+  font-size: 0.8rem;
+}
+
+input {
+  border: 0.1px solid #ea4a2f;
+}
+
+.long-distance-service {
+  margin-top: 50%;
+}
+
+.form-control {
+  width: 200%;
+}
