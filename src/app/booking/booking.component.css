@@ -1,6 +1,7 @@
 .book-now-btn {
   background-color: #f1dd30;
   color: black;
+  margin-top: 10%;
 }
 
 .card-body {
@@ -15,4 +16,18 @@
 .service-title {
   color: #ea4a2f;
   text-shadow: 2px 4px 4px #adb5bd;
+}
+
+input,
+label {
+  display: block !important;
+}
+
+.all-labels {
+  color: white;
+  font-size: 0.8rem;
+}
+
+input {
+  border: 0.1px solid #ea4a2f;
 }
