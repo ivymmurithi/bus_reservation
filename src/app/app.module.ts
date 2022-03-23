@@ -11,6 +11,7 @@ import { PaymentsComponent } from './payments/payments.component';
 import { ReviewsComponent } from './reviews/reviews.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { ModeOfPaymentsComponent } from './mode-of-payments/mode-of-payments.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { RegisterComponent } from './register/register.component';
     PaymentsComponent,
     ReviewsComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    ModeOfPaymentsComponent
   ],
   imports: [
     BrowserModule,

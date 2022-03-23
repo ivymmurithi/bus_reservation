@@ -1,0 +1,48 @@
+.card {
+  float: left;
+  position: relative;
+  width: 30%;
+  padding-bottom: 30%; /* = width for a 1:1 aspect ratio */
+  margin: 1.66%;
+  overflow: hidden;
+}
+
+.card-body {
+  background-color: white;
+  position: absolute;
+  height: 80%; /* = 100% - 2*10% padding */
+  width: 90%; /* = 100% - 2*5% padding */
+  padding: 10% 5%;
+}
+
+.description {
+  font-weight: 600;
+}
+
+.text-muted {
+  font-size: 0.7rem;
+}
+
+.cash-card {
+  border: 3px solid #3b7a5d;
+}
+
+.mpesa-card {
+  border: 3px solid #61b549;
+}
+
+.paypal-card {
+  border: 3px solid #293893;
+}
+
+.cash-btn {
+  border: 1px solid #3b7a5d;
+}
+
+.mpesa-btn {
+  border: 1px solid #61b549;
+}
+
+.paypal-btn {
+  border: 1px solid #293893;
+}
