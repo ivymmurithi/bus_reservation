@@ -1,0 +1,39 @@
+h1 {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 40px;
+    color: #FF4E00;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 50px;
+}
+
+#username,
+#password {
+    font-family: 'Inter';
+    font-size: 12px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #FFFFFF;
+    border: 1px solid #FF4E00;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 10px -3px rgba(255, 78, 0, 0.34);
+    border-radius: 5px;
+}
+
+#btn-login,
+#btn-register {
+    width: 119px;
+    height: 40px;
+    margin: 15px;
+    border: 1px solid #FF4E00;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 2px 10px rgba(255, 78, 0, 0.25));
+    border-radius: 5px;
+}
+
+a {
+    color: #FF4E00;
+}
