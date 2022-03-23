@@ -38,3 +38,18 @@
     letter-spacing: 1px;
     margin-top: 3pc;
 }
+
+
+
+.container-site {
+    position: absolute;
+    width: 633px;
+    height: 416px;
+    top: 156px;
+    max-width: 1200px;
+    margin-right: 23pc;
+    background-color: #f9e531ab;
+    /* height: 50%; */
+    /* width: 40%; */
+    border-radius: 3pc;
+}
