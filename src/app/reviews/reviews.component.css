@@ -8,7 +8,7 @@ input {
 }
 
 .form-control {
-  width: 200%;
+  width: 220%;
 }
 
 .book-now-btn {
@@ -20,7 +20,7 @@ input {
 
 .reviews-section {
     float: right;
-    margin-right: 22%;
+    margin-right: 23%;
 }
 
 .subscribe-section {
