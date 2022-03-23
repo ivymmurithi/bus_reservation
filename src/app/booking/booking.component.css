@@ -1,4 +1,18 @@
 .book-now-btn {
-    background-color: #F1DD30;
-    color: black;
+  background-color: #f1dd30;
+  color: black;
+}
+
+.card-body {
+  background-color: #c4c4c4;
+}
+
+.services-name {
+  color: #ea4a2f;
+  text-shadow: 2px 4px 4px #6c757d;
+}
+
+.service-title {
+  color: #ea4a2f;
+  text-shadow: 2px 4px 4px #adb5bd;
 }
