@@ -12,6 +12,7 @@ import { ReviewsComponent } from './reviews/reviews.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { ModeOfPaymentsComponent } from './mode-of-payments/mode-of-payments.component';
+import { ServiceComponent } from './service/service.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ModeOfPaymentsComponent } from './mode-of-payments/mode-of-payments.com
     ReviewsComponent,
     LoginComponent,
     RegisterComponent,
-    ModeOfPaymentsComponent
+    ModeOfPaymentsComponent,
+    ServiceComponent
   ],
   imports: [
     BrowserModule,
