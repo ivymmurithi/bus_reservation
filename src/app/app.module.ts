@@ -12,7 +12,8 @@ import { ReviewsComponent } from './reviews/reviews.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { ModeOfPaymentsComponent } from './mode-of-payments/mode-of-payments.component';
-import { ServiceComponent } from './service/service.component';
+import { ApiService } from './api.service'; 
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -26,13 +27,15 @@ import { ServiceComponent } from './service/service.component';
     LoginComponent,
     RegisterComponent,
     ModeOfPaymentsComponent,
-    ServiceComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [   
+    ApiService
+],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

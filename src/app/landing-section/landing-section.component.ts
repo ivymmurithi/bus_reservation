@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ApiService } from '../api.service';
 
 @Component({
   selector: 'app-landing-section',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LandingSectionComponent implements OnInit {
 
-  constructor() { }
+  constructor(private api:ApiService ) { 
+  }
 
   ngOnInit(): void {
+    this.api.getAllBuses().subscribe(
+      data => {
+        console.log(data)
+      }
+    )
   }
 
 }
